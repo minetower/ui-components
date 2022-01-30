@@ -9,7 +9,11 @@
     import { Navbar } from '@minetower/ui-components'
 </script>
 
-<Navbar title="Minecraft Tweaks" repo_url="/minecraft-tweaks" center_title />
+<Navbar 
+    title="Minecraft Tweaks"
+    small_title="Tweaks"
+    repo_url="/minecraft-tweaks"
+    center_title />
 ```
 
 ## Tailwind css
