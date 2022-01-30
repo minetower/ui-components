@@ -1,5 +1,6 @@
 <script>
 	export let title = '',
+		small_title = '',
 		repo_url = '',
 		center_title = false
 </script>
@@ -10,10 +11,11 @@
 		<img class="w-6" src="/assets/images/logo.png" alt="logo" />
 		<div class="items-center md:mt-1" class:flex-grow={!center_title}>
 			<a
-				class="hidden sm:inline text-gray-100 text-xs md:text-base logo"
+				class="text-gray-100 text-xs md:text-base logo"
 				class:pl-5={!center_title}
 				href="/">
-				{title}
+				<span class="hidden sm:inline">{title}</span>
+				<span class="inline sm:hidden">{small_title}</span>
 			</a>
 		</div>
 		<div class="flex items-center">
