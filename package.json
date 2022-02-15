@@ -21,5 +21,8 @@
   "description": "Minetower common components",
   "repository": "https://github.com/minetower/ui-components",
   "author": "Ilia <istudyatuni@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "@minetower:registry": "https://npm.pkg.github.com"
+  }
 }
