@@ -1,5 +1,11 @@
 image: node:latest
 
+# push to release branch to deploy
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH != "release"
+      when: never
+
 stages:
   - deploy
 
