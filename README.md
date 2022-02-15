@@ -1,5 +1,16 @@
 # Common components
 
+[![GitLab Release (latest by SemVer)](https://img.shields.io/gitlab/v/release/minetower/ui-components)](https://gitlab.com/minetower/ui-components)
+
+## Install
+
+```bash
+# add GitLab NPM registry to project scope
+echo '@minetower:registry=https://gitlab.com/api/v4/packages/npm/' >> .npmrc
+
+yarn add -D @minetower/ui-components
+```
+
 ## Components
 
 - `Navbar`
